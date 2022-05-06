@@ -1,0 +1,41 @@
+:root {
+    --primary-color: white;
+    --secundary-color: yellow;
+    --background-color: #1d1d1d;
+    --primary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --primary-font-size: 1.8rem;
+}
+
+html {
+    font-family: var(--primary-font);
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(--primary-color);
+    list-style: none;
+}
+
+/* Hiden header and nav in mobile < 720px */
+@media screen and (max-width: 1024px) {
+    .header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav {
+        display: none;
+    }
+}
+/**/
+
+/* begining of the code */
+
+/* Header */
+/* Main */
+/* Footer */

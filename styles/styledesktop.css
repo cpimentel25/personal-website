@@ -1,0 +1,75 @@
+:root {
+    --primary-color: white;
+    --secundary-color: #F2E625;
+    --3er-color: hsl(193, 69%, 60%);
+    --4to-color: hsl(339, 85%, 52%);
+    --background-color: #1d1d1d;
+    --btn-colorshadow: #3b3b3999;
+    --primary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --primary-font-size: 1.8rem;
+}
+
+html {
+    font-family: var(--primary-font);
+    font-size: 62.5%;
+    /* background-color: var(--background-color); */
+}
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(--primary-color);
+    list-style: none;
+}
+
+/* begining of the code */
+
+main {
+    padding: 0 150px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.section-1, .section-2, .section-3, .section-4, .section-5 {
+    padding: 0;
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/**/
+/* header */
+header {
+  position: fixed;
+}
+
+/* Nav */
+nav {
+    position: fixed;
+}
+
+footer {
+    position: fixed;
+}
+
+/**/
+
+/* Header */
+/* .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    background-color: transparent;
+    width: 100%;
+    height: 90px;
+}
+
+.logo-tittle {
+    width: auto;
+    height: 100%;
+    margin: 20px 70px 0;
+} */
