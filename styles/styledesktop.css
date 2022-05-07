@@ -7,6 +7,7 @@
     --btn-colorshadow: #3b3b3999;
     --primary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --primary-font-size: 1.8rem;
+    --nav-color-font: hsla(60, 5%, 74%, 0.9);
 }
 
 html {
@@ -36,40 +37,93 @@ main {
     padding: 0;
     min-height: 100vh;
     max-width: 1000px;
-    margin: 0 auto;
 }
 
 /**/
+
 /* header */
-header {
+.header {
   position: fixed;
+  width: 120px;
+  right: 60px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.header .logo-tittle {
+    width: 100%;
+    height: auto;
 }
 
 /* Nav */
-nav {
+.nav {
     position: fixed;
+    width: 100px;
+    right: 60px;
+    top: 50%;
+    transform: translate(-0%, -50%);
 }
 
-footer {
-    position: fixed;
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
+.main-nav a {
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 3;
+    color: var(--nav-color-font);
+}
+
+.main-nav a:hover {
+    color: var(--3er-color);
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+}
+
+.footer-social-links ul {
+    flex-direction: column;
+    width: 70px;
+}
+
+.footer a {
+    display: block;
+    padding: 20px 0;
+}
+
+.footer-credit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
 /**/
 
-/* Header */
-/* .header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: flex-end;
-    background-color: transparent;
-    width: 100%;
-    height: 90px;
+/* Section-2 */
+.section-2 {
+    min-height: auto;
 }
 
-.logo-tittle {
-    width: auto;
-    height: 100%;
-    margin: 20px 70px 0;
-} */
+.section-2 .about-in {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 60px auto;
+}
+
+/* Section-4 */
+.projects {
+    margin: 40px 40px;
+}
