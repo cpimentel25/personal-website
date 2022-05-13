@@ -77,6 +77,7 @@ main {
 .main-nav a {
     font-size: 1.8rem;
     font-style: italic;
+    font-variant: small-caps;
     line-height: 3;
     color: var(--nav-color-font);
 }
@@ -121,6 +122,12 @@ main {
     display: grid;
     grid-template-columns: 3fr 2fr;
     margin: 60px auto;
+    align-items: center;
+}
+
+/* ection-3 */
+.section-3 .skills-box-grid {
+    margin-bottom: 50px;
 }
 
 /* Section-4 */
